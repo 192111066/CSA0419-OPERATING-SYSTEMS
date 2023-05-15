@@ -1,0 +1,9 @@
+echo"enter the number"
+read n
+r='expr$n%2'
+echo"the result"
+if[$r-eq0]
+then
+echo"$n is even number"
+else
+echo"$n is odd number"
